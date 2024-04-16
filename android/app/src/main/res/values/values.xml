@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Replace these values with your Firebase project's configuration -->
+    <string name="google_app_id">1:1017979616244:android:cdcc0a462492bff0e5d7a1</string>
+    <string name="project_id">indianhiring-66a69</string>
+    <string name="google_api_key">AIzaSyAd3vxDqRo2JXd7E-QoplW1-6MsmgfLiMQ</string>
+
+</resources>
