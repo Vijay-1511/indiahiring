@@ -14,8 +14,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-
-
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
@@ -26,11 +24,10 @@ class MyApp extends StatelessWidget {
 
 
         textTheme: const TextTheme(
-         bodyLarge: TextStyle( fontSize:70,fontWeight: FontWeight.bold)
+         bodyLarge: TextStyle( fontSize:40,fontWeight: FontWeight.bold)
         )
       ),
-
-      home:  Myhome()
+      home:  MySplash()
     );
   }
 }
@@ -61,9 +58,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Scaffold(
       appBar: AppBar(
-
-
-
         // TRY THIS: Try changing the color here to a specific color (to
         // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
         // change color while the other colors stay the same.
