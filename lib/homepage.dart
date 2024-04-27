@@ -272,7 +272,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 label: 'Business',
               ),
               BottomNavigationBarItem(
-                icon: Icon(Icons.school),
+                icon: Icon(Icons.person),
                 label: 'School',
               ),
 

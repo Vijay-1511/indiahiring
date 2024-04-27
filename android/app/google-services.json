@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1017979616244",
+    "project_id": "indianhiring-66a69",
+    "storage_bucket": "indianhiring-66a69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017979616244:android:cdcc0a462492bff0e5d7a1",
+        "android_client_info": {
+          "package_name": "india.hiring.com.indiahiring"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd3vxDqRo2JXd7E-QoplW1-6MsmgfLiMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

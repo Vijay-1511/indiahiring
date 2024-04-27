@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:indiahiring/settings_and_activity.dart';
 import 'package:indiahiring/splashscreen.dart';
 
+import 'filter_page.dart';
+import 'first_page_nav.dart';
 import 'loginpage.dart';
 import 'homepage.dart';
 
 void main() {
-  runApp( MyApp());
+  runApp( const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -27,7 +30,7 @@ class MyApp extends StatelessWidget {
          bodyLarge: TextStyle( fontSize:40,fontWeight: FontWeight.bold)
         )
       ),
-      home:  MySplash()
+      home:  Filter_page()
     );
   }
 }
