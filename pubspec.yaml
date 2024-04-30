@@ -39,6 +39,8 @@ dependencies:
   firebase_core: any
   activout_firebase_options_selector: ^1.0.0
   google_sign_in: any
+
+
   shared_preferences: any
   firebase_auth: any
 

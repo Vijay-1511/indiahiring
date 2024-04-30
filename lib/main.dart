@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:indiahiring/settings_and_activity.dart';
 import 'package:indiahiring/splashscreen.dart';
 
+import 'delate_page_heading.dart';
+import 'detale_page1.dart';
 import 'filter_page.dart';
 import 'first_page_nav.dart';
+import 'job_describe.dart';
 import 'loginpage.dart';
 import 'homepage.dart';
 
@@ -30,7 +33,7 @@ class MyApp extends StatelessWidget {
          bodyLarge: TextStyle( fontSize:40,fontWeight: FontWeight.bold)
         )
       ),
-      home:  Filter_page()
+      home:  Job_describe()
     );
   }
 }
