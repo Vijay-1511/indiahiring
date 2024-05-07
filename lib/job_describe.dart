@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiahiring/pay_and_banifits.dart';
 import 'package:indiahiring/ui_custom_widgets/custom_textfield.dart';
 import 'package:indiahiring/ui_custom_widgets/rounded_button.dart';
 import 'package:indiahiring/ui_custom_widgets/text_custom.dart';
@@ -55,7 +56,8 @@ class _Job_describeState extends State<Job_describe> {
                   btn_color: Colors.white,
                   btn_background: Colors.blue,
                 btn_voidCallback: (){
-                  //   perform the task on the click of button
+                  Navigator.push(context,MaterialPageRoute(builder: (context)=> Pay_and_Banifits()));
+
 
                 }),
               ],

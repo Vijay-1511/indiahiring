@@ -67,27 +67,27 @@ class First_Item extends StatelessWidget {
                   ),
                 ),
 
-                // Container(width: screenSize.width,
-                //   color: Colors.black12,
-                //   height: screenSize.height*0.18,
-                //   child: Center(
-                //     child: Text("Find Your Dream Job Now. ",style: TextStyle(
-                //       fontSize: 20,fontWeight: FontWeight.bold
-                //     ),),
-                //   ),
+                Container(width: screenSize.width,
+                  color: Colors.black12,
+                  height: screenSize.height*0.18,
+                  child: Center(
+                    child: Text("Find Your Dream Job Now. ",style: TextStyle(
+                      fontSize: 20,fontWeight: FontWeight.bold
+                    ),),
+                  ),
+                ),
+// This text and image for the lable in the app
+                // Text(
+                //   "find_your_dream",
+                //   style:TextStyle(fontSize: 20),
                 // ),
-
-                Text(
-                  "find_your_dream",
-                  style:TextStyle(fontSize: 20),
-                ),
-                Container(
-                  child:Image.asset('home_below_name_line.png') ,
-                  height: 18,
-                  width: 135,
-                  alignment: Alignment.centerRight,
-                  margin: EdgeInsets.only(right: 73),
-                ),
+                // Container(
+                //   child:Image.asset('home_below_name_line.png') ,
+                //   height: 18,
+                //   width: 135,
+                //   alignment: Alignment.centerRight,
+                //   margin: EdgeInsets.only(right: 73),
+                // ),
 
                 Text("Latest Jobs on Indeed",style: TextStyle(
                   fontSize: 20,

@@ -7,9 +7,7 @@ class Second_item extends StatelessWidget {
     return Scaffold(
 
 
-      body: Center(
-        child: Text("Page Second"),
-      ),
+
     );
   }
 }

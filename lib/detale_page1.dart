@@ -3,6 +3,8 @@ import 'package:indiahiring/ui_custom_widgets/custom_textfield.dart';
 import 'package:indiahiring/ui_custom_widgets/rounded_button.dart';
 import 'package:indiahiring/ui_custom_widgets/text_custom.dart';
 
+import 'delate_page_heading.dart';
+
 class Detale_page1 extends StatefulWidget {
   const Detale_page1({super.key});
 
@@ -11,6 +13,8 @@ class Detale_page1 extends StatefulWidget {
 }
 
 class _Detale_page1State extends State<Detale_page1> {
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +35,7 @@ class _Detale_page1State extends State<Detale_page1> {
               ),
 
               SizedBox(height: MediaQuery.sizeOf(context).height*0.04,),
-              
+
               Custom_TextStyle(text: 'You haven’t posted a job before, so you’ll need to create an employer account',
                   size: 14,color: Colors.black,fontWeight: FontWeight.normal,),
               SizedBox(height: MediaQuery.sizeOf(context).height*0.04,),
@@ -55,11 +59,30 @@ class _Detale_page1State extends State<Detale_page1> {
               Textfield_Custom(),
               SizedBox(height: MediaQuery.sizeOf(context).height*0.04,),
 
-              Center(child: Rounded_btn(btn_Name: "Continue",btn_color: Colors.white))
+              // Center(child: Rounded_btn(btn_Name: "Continue",btn_color: Colors.white,
+              // btn_voidCallback:(){
+              //   Navigator.pushReplacement(con;ext, MaterialPageRoute(builder: (context) => Job_Location(),));
+              //
+              // },))
+
+      Center(
+        child: ElevatedButton(
+            onPressed: () {
+              Navigator.push(context,MaterialPageRoute(builder: (context)=> Job_Location()));
+            },
+        style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.blue,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(15),
+            )
+        ),
+        child: Text("continue",style: TextStyle(color:Colors.white),),
+            ),
+      )
 
 
 
-              
+
 
 
 

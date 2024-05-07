@@ -245,6 +245,9 @@ class _MyProfilepageState extends State<MyProfilepage> {
                   return null;
                 },
               ),
+// File taking  form the device
+
+
 
               // GestureDetector(
               //   // onTap: () async {

@@ -312,9 +312,11 @@ class _LoginScreenState extends State<LoginScreen> {
                           backgroundColor: Colors.white,
                         ),
                         onPressed: () {
+                          Navigator.pushReplacement(context
+                              , MaterialPageRoute(builder: (context) => MyProfile(),));
 
-                          _mobileNumber=_mobileNumberController.text;
-                          _verifyPhoneNumber(_mobileNumber);
+                          // _mobileNumber=_mobileNumberController.text;
+                          // _verifyPhoneNumber(_mobileNumber);
 
                           //dasda
                           // Navigator.push(
