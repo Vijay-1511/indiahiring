@@ -1,0 +1,43 @@
+name: vijay_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  intl: 0.19.0
+  connectivity_plus: ^5.0.2
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Asap
+      fonts: 
+        - asset: assets/fonts/AsapRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/AsapRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/AsapRomanRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Kreon
+      fonts: 
+        - asset: assets/fonts/KreonBold.ttf
+          weight: 700
+        - asset: assets/fonts/KreonRegular.ttf
+          weight: 400
